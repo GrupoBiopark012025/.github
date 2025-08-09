@@ -2,7 +2,7 @@ name: ✨ Solicitação de Funcionalidade
 description: Solicite uma nova funcionalidade ou melhoria
 labels: ["enhancement"]
 title: "[FEAT]: "
-assignees: []
+assignees: ["guiigos"]
 body:
   - type: markdown
     attributes:
