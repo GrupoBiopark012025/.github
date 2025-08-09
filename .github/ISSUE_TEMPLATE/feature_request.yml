@@ -1,24 +1,67 @@
-name: ✨Feature Request
-description: Request a new feature or enhancement
+name: ✨ Solicitação de Funcionalidade
+description: Solicite uma nova funcionalidade ou melhoria
 labels: ["enhancement"]
 title: "[FEAT]: "
-assignees: ["guiigos"]
+assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        Please make sure this feature request hasn't been already submitted by someone by looking through other open/closed issues
-  
+        Por favor, verifique se esta solicitação de funcionalidade já não foi feita por outra pessoa, consultando as outras issues abertas/fechadas.
+
   - type: textarea
-    id: description
+    id: titulo
     attributes:
-      label: Description
-      description: Give us a brief description of the feature or enhancement you would like
+      label: Título
+      description: Insira o título resumido da funcionalidade ou melhoria que deseja sugerir
     validations:
       required: true
-      
+
   - type: textarea
-    id: additional-information
+    id: objetivo
     attributes:
-      label: Additional Information
-      description: Give us some additional information on the feature request like proposed solutions, links, screenshots, etc.
+      label: Objetivo
+      description: Descreva o objetivo principal dessa funcionalidade ou melhoria
+    validations:
+      required: true
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Forneça o contexto ou o problema que motiva a solicitação dessa funcionalidade
+    validations:
+      required: true
+
+  - type: textarea
+    id: requisitos
+    attributes:
+      label: Requisitos
+      description: Liste os requisitos técnicos ou funcionais necessários para implementar esta funcionalidade
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterios-aceite
+    attributes:
+      label: Critérios de Aceite
+      description: Descreva os critérios que devem ser atendidos para considerar a funcionalidade como concluída
+    validations:
+      required: true
+
+  - type: checkbox
+    id: checklist-dod
+    attributes:
+      label: Checklist de DoD (Definition of Done)
+      description: Marque os itens que estão completos para garantir que a tarefa está concluída
+    options:
+      - label: A funcionalidade foi feita
+        value: funcionalidade-feita
+      - label: O código foi revisado
+        value: codigo-revisado
+      - label: Todos os testes necessários foram realizados
+        value: testes-realizados
+      - label: A documentação foi atualizada
+        value: documentacao-atualizada
+      - label: O MR foi aprovado
+        value: mr-aprovado
