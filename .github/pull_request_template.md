@@ -1,3 +1,3 @@
-Plase go the `Preview` tab and select the apprpriate sub-template:
+Por favor vá para a aba `Preview` e selecione o sub-template apropriado:
 
-* [📘 Default](?expand=1&template=default.md)
+* [📘 Padrão](?expand=1&template=default.md)
