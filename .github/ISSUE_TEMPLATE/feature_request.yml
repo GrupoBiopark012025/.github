@@ -2,15 +2,16 @@ name: ✨Solicitação de Funcionalidade
 description: Solicite uma nova funcionalidade ou melhoria
 labels: ["enhancement"]
 title: "[FEAT]: "
-assignees: ["guiigos"]
+assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        Por favor, verifique se esta solicitação de funcionalidade já não foi feita por outra pessoa, consultando as outras issues abertas/fechadas.
+        Obrigado por dedicar seu tempo para preencher esta solicitação de funcionalidade 🤗  
+        Certifique-se de que não há nenhuma issue aberta/fechada relacionada a este problema 😃
 
   - type: textarea
-    id: titulo
+    id: title
     attributes:
       label: Título
       description: Insira o título resumido da funcionalidade ou melhoria que deseja sugerir
@@ -18,7 +19,7 @@ body:
       required: true
 
   - type: textarea
-    id: objetivo
+    id: goal
     attributes:
       label: Objetivo
       description: Descreva o objetivo principal dessa funcionalidade ou melhoria
@@ -26,7 +27,7 @@ body:
       required: true
 
   - type: textarea
-    id: contexto
+    id: context
     attributes:
       label: Contexto
       description: Forneça o contexto ou o problema que motiva a solicitação dessa funcionalidade
@@ -34,7 +35,7 @@ body:
       required: true
 
   - type: textarea
-    id: requisitos
+    id: requirements
     attributes:
       label: Requisitos
       description: Liste os requisitos técnicos ou funcionais necessários para implementar esta funcionalidade
@@ -42,7 +43,7 @@ body:
       required: true
 
   - type: textarea
-    id: criterios-aceite
+    id: acceptance-criteria
     attributes:
       label: Critérios de Aceite
       description: Descreva os critérios que devem ser atendidos para considerar a funcionalidade como concluída

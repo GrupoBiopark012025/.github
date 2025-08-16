@@ -1,39 +1,39 @@
-name: 🐛Bug Report
-description: File a bug report here
+name: 🐛Relatório de Bug
+description: Registre um relatório de bug aqui
 title: "[BUG]: "
 labels: ["bug"]
-assignees: ["guiigos"]
+assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report 🤗
-        Make sure there aren't any open/closed issues for this topic 😃
-        
+        Obrigado por dedicar seu tempo para preencher este relatório de bug 🤗  
+        Certifique-se de que não há nenhuma issue aberta/fechada relacionada ao mesmo assunto 😃
+
   - type: textarea
     id: bug-description
     attributes:
-      label: Description of the bug
-      description: Give us a brief description of what happened and what should have happened
+      label: Descrição do bug
+      description: Dê uma breve descrição do que aconteceu e o que deveria ter acontecido
     validations:
       required: true
-      
+
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: Steps To Reproduce
-      description: Steps to reproduce the behavior.
+      label: Passos para Reproduzir
+      description: Etapas para reproduzir o comportamento.
       placeholder: |
-        1. Go to '...'
-        2. Click on '...'
-        3. Scroll down to '...'
-        4. See error
+        1. Vá para '...'
+        2. Clique em '...'
+        3. Role a página até '...'
+        4. Veja o erro
     validations:
       required: true
-      
+
   - type: textarea
     id: additional-information
     attributes:
-      label: Additional Information
+      label: Informações Adicionais
       description: |
-        Provide any additional information such as logs, screenshots, likes, scenarios in which the bug occurs so that it facilitates resolving the issue.
+        Forneça qualquer informação adicional, como logs, capturas de tela, ambientes, ou cenários em que o bug ocorre para facilitar a resolução do problema.
