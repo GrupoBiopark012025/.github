@@ -16,7 +16,7 @@ body:
       label: Objetivo
       description: Descreva o objetivo principal dessa funcionalidade ou melhoria
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: context
@@ -24,7 +24,7 @@ body:
       label: Contexto
       description: Forneça o contexto ou o problema que motiva a solicitação dessa funcionalidade
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: requirements
@@ -32,7 +32,7 @@ body:
       label: Requisitos
       description: Liste os requisitos técnicos ou funcionais necessários para implementar esta funcionalidade
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: acceptance-criteria
@@ -40,7 +40,7 @@ body:
       label: Critérios de Aceite
       description: Descreva os critérios que devem ser atendidos para considerar a funcionalidade como concluída
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: checklist-dod
