@@ -11,14 +11,6 @@ body:
         Certifique-se de que não há nenhuma issue aberta/fechada relacionada a este problema 😃
 
   - type: textarea
-    id: title
-    attributes:
-      label: Título
-      description: Insira o título resumido da funcionalidade ou melhoria que deseja sugerir
-    validations:
-      required: true
-
-  - type: textarea
     id: goal
     attributes:
       label: Objetivo
